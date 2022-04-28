@@ -43,13 +43,13 @@ fun CompanyItem (
                     fontWeight = FontWeight.Light,
                     color = MaterialTheme.colors.onBackground
                 )
-                Spacer(modifier = Modifier.height(80.dp))
-                Text(
-                    text = "(${company.symbol}",
-                    fontStyle = FontStyle.Italic,
-                    color = MaterialTheme.colors.onBackground
-                )
             }
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(
+                text = "(${company.symbol})",
+                fontStyle = FontStyle.Italic,
+                color = MaterialTheme.colors.onBackground
+            )
         }
     }
 }
